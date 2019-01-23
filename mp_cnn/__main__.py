@@ -12,8 +12,8 @@ from common.dataset import DatasetFactory
 from common.evaluation import EvaluatorFactory
 from common.train import TrainerFactory
 from utils.serialization import load_checkpoint
-from .model import MPCNN
-from .lite_model import MPCNNLite
+from mp_cnn.model import MPCNN
+from mp_cnn.lite_model import MPCNNLite
 
 
 def get_logger():

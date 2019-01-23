@@ -105,7 +105,7 @@ if __name__ == '__main__':
     parser.add_argument('--dir', help='path to the TrecQA|WikiQA data directory', default="../../Castor-data/TrecQA")
     args = parser.parse_args()
 
-    stoplist = set([line.strip() for line in open('../../Castor-data/TrecQA/stopwords.txt', encoding='utf-8')])
+    stoplist = set([line.strip() for line in open('../../Castor-data/datasets/TrecQA/stopwords.txt', encoding='utf-8')])
     punct = set(string.punctuation)
     stoplist.update(punct)
 
